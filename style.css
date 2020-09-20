@@ -1,0 +1,92 @@
+@import "https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #140c1f;
+}
+
+header{
+    font-family: 'Antic Slab',serif;
+    background-color: white;
+    padding: 20px 20px;
+}
+
+header > h1 {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.score-board{
+    margin: 20px auto ;
+    padding: 15px auto;
+    text-align: center;
+    font-family: 'Antic Slab',serif;
+    border: 3px solid white;
+    padding: 15px 20px;
+    color: white;
+    width: 200px;
+    font-size: 32px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.badge{
+    background-color: #ff4a26;
+    font-size: 19px;
+    padding: 2px 8px;
+}
+
+#user-badge{
+    position: absolute;
+    top: 20px;
+    left: -35px;
+}
+
+#comp-badge{
+    position: absolute;
+    top: 20px;
+    right: -45px;
+}
+
+.result-message>p{
+    padding: 10px 10px;
+    text-align: center;
+    text-emphasis-style: bold;
+    font-size: 30px;
+    font-family: 'Antic slab',serif;
+    color: white;
+}
+
+.choices{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.choice{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 25px 00px;
+    text-align: center;
+    border: 8px solid white;
+    border-radius: 50%;
+}
+
+.instruction{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Antic slab',serif;
+    font-size: 24px;
+    color: white;
+}
+
+.choice:hover{
+    cursor: pointer;
+    border-color: gray;
+}
